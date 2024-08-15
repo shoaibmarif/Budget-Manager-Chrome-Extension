@@ -6,12 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="./jquery.min.js"></script>
     <script src="./popup.js"></script>
-    <title>Chrome Extension</title>
+    <title>Budget Manager</title>
 </head>
 
 <body>
-    <h2 id="greet">Hello World</h2>
-    <input type="text" id="name" placeholder="Enter Your Name">
+    <h1>Budget Manager</h1>
+    <h2>Total Spend: <span id="total">0</span></h2>
+    <h2>Limit: <span id="limit"></span></h2>
+    <h3>Enter Amount</h3>
+    <input type="text" id="amount">
+    <button type="submit" id="spendAmount">Spend</button>
 </body>
 
 </html>

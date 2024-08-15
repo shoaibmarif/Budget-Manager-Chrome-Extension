@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "Minimal Manifest",
+    "name": "Budget Manager",
     "version": "1.0.0",
-    "description": "A basic example extension with only required keys",
+    "description": "This Extension Going to Track Spending of a Person.",
     "icons": {
         "128": "icon128.png",
         "48": "icon48.png",
@@ -11,5 +11,8 @@
     "action": {
         "default_icon": "icon16.png",
         "default_popup": "popup.html"
-    }
+    },
+    "permissions": [
+        "storage"
+    ]
 }
